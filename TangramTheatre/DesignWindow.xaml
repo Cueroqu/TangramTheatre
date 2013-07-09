@@ -1,0 +1,23 @@
+﻿<u:UObject x:Class="TangramTheatre.DesignWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:u="clr-namespace:UTable.Objects.Controls;assembly=UTable.Core"
+                 xmlns:sharedObjects="clr-namespace:TangramTheatre.SharedObjects"
+           Height="500" Width="900" Background="#01ffffff">
+    <u:UGrid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="350"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <sharedObjects:DesignCanvas x:Name="window" Grid.Column="0">
+        </sharedObjects:DesignCanvas>
+        <u:UGrid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <u:UButton Content="Run Robot" Click="RunRobotClick"></u:UButton>
+        </u:UGrid>
+    </u:UGrid>
+</u:UObject>

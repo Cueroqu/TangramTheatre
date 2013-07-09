@@ -1,0 +1,9 @@
+﻿<tt:TangramTable x:Class="TangramTheatre.UObject1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:u="clr-namespace:UTable.Objects.Controls;assembly=UTable.Core"
+    xmlns:tt="clr-namespace:TangramTheatre" xmlns:shapes="clr-namespace:UTable.Objects.Shapes;assembly=UTable.Core"
+                 Height="300" Width="300">
+    <u:UCanvas x:Name="Table" Background="#FF2D2D30">
+    </u:UCanvas>
+</tt:TangramTable>
